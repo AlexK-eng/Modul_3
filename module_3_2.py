@@ -1,5 +1,5 @@
 # This is a Task 3_2.
-def send_email(message, recipient, sender="university.help@gmail.com"):
+def send_email(message, recipient, *, sender="university.help@gmail.com"):
     if recipient.count('@') != 1 or sender.count('@') != 1:
         return print(f'Невозможно отправить письмо с адреса {sender} на адрес {recipient}')
 
