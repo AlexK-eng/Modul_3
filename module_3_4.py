@@ -1,4 +1,4 @@
-# This is a Task 3_1.
+# This is a Task 3_4.
 def single_root_words(root_word, *other_words):
     same_words = [*other_words]
     return [same_words[x] for x in range(len(same_words)) if
